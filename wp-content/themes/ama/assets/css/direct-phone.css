@@ -1,0 +1,295 @@
+.ama-alo-phone {
+    position: absolute;
+    visibility: hidden;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    z-index: 200000 !important;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: visibility .5s;
+    -moz-transition: visibility .5s;
+    -o-transition: visibility .5s;
+    transition: visibility .5s;
+    right: 150px;
+    top: 30px;
+}
+ .ama-alo-phone.ama-alo-show {
+    visibility: visible;
+}
+ .ama-alo-phone.ama-alo-hover, .ama-alo-phone:hover {
+    opacity: 1;
+}
+.ama-alo-ph-circle {
+    width: 160px;
+    height: 160px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid rgba(30,30,30,0.4);
+    border: 2px solid #bfebfc 9;
+    opacity: .1;
+    -webkit-animation: ama-alo-circle-anim 1.2s infinite ease-in-out;
+    -moz-animation: ama-alo-circle-anim 1.2s infinite ease-in-out;
+    -ms-animation: ama-alo-circle-anim 1.2s infinite ease-in-out;
+    -o-animation: ama-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: ama-alo-circle-anim 1.2s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.ama-alo-phone.ama-alo-green .ama-alo-ph-circle {
+    border-color: #3eb2cf;
+    border-color: #bfebfc 9;
+    opacity: .5;
+}
+.ama-alo-ph-circle-fill {
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    background-color: #000;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: .1;
+    -webkit-animation: ama-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -moz-animation: ama-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -ms-animation: ama-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -o-animation: ama-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: ama-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.ama-alo-phone.ama-alo-green .ama-alo-ph-circle-fill {
+    background-color: rgba(0,175,242,0.5);
+    background-color: #a6e3fa 9;
+    opacity: .75 !important;
+}
+.ama-alo-ph-img-circle {
+    width: 60px;
+    height: 60px;
+    top: 70px;
+    left: 70px;
+    position: absolute;
+    background: rgba(30,30,30,0.1) url("http://ama.com.vn/wp-content/themes/ama/assets/images/direct-phone.png") no-repeat center center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: .7;
+}
+.ama-alo-ph-circle-shake {
+    -webkit-animation: ama-alo-circle-img-anim 1s infinite ease-in-out;
+    -moz-animation: ama-alo-circle-img-anim 1s infinite ease-in-out;
+    -ms-animation: ama-alo-circle-img-anim 1s infinite ease-in-out;
+    -o-animation: ama-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: ama-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.ama-alo-phone.ama-alo-green .ama-alo-ph-img-circle {
+    background-color: #3eb2cf;
+    background-color: #3eb2cf 9;
+}
+.ama-alo-ph-circle-close:after {
+    webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.ama-alo-ph-circle-close {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: rgba(0,175,242,0.7);
+    right: 60px;
+    top: 60px;
+    color: #fff;
+    opacity: 0;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-delay: 0;
+    z-index: 99999;
+}
+.ama-alo-ph-circle-close:before, .ama-alo-ph-circle-close:after {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 1px;
+    background: #fff;
+    left: 2px;
+    top: 8px;
+}
+.ama-alo-ph-circle-close:before {
+    webkit-transfor: rotate(45deg);
+    transform: rotate(45deg);
+}
+@keyframes ama-alo-circle-anim{
+    0% {
+        transform: rotate(0) scale(.5) skew(1deg);
+        opacity: .1;
+    }
+    30% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .5;
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .1;
+    }
+}
+@keyframes ama-alo-circle-fill-anim{
+    0% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2;
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2;
+    }
+    100% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2;
+    }
+}
+@keyframes ama-alo-circle-img-anim{
+    0% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+.container-modal-phone .modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.container-modal-phone .modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.container-modal-phone .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.container-modal-phone .nf-before-form-content,.container-modal-phone .nf-after-form-content{
+    display:none;
+}
+.container-modal-phone .modal-header{
+    border-radius:5px 5px 0px 0px;
+}
+.container-modal-phone .modal-header h4{
+    font-family:"ama";
+    font-size:20px;
+    
+}
+.container-modal-phone .modal-body select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -khtml-appearance: none;
+    -o-appearance: none;
+}
+.container-modal-phone .modal-body input[type="text"], .container-modal-phone .modal-body select{
+    margin: 0 auto;
+    padding:15px;
+    font-family:"ama";
+    font-size:20px;
+    border: none;
+    border-bottom: 2px solid #2F318D;
+    height: 75px;
+    text-align: center;
+    outline: none;
+    text-align-last: center;
+    border-radius:0;
+    
+}
+.container-modal-phone .modal-body ::-webkit-input-placeholder{color:#484646;}
+.container-modal-phone .modal-body ::-moz-placeholder{color:#484646;}
+.container-modal-phone .modal-body :-ms-input-placeholder{color:#484646;}
+.container-modal-phone .modal-body :-moz-placeholder{color:#484646;}
+.container-modal-phone .modal-header{
+    position:relative;
+}
+.container-modal-phone .modal-header .close{
+    background: white;
+    padding: 10px;
+    top: -17px;
+    right: -23px;
+    width: 40px;
+    border-radius: 100px;
+    position: absolute;
+    opacity: 1;
+    height: 40px;
+    outline: none;
+}
+
+.ama-alo-phone.ama-alo-green.ama-alo-hover .ama-alo-ph-img-circle, .ama-alo-phone.ama-alo-green:hover .ama-alo-ph-img-circle {
+    background-color: #f16321;
+    background-color: #f16321 9;
+}
+.ama-alo-phone.ama-alo-green.ama-alo-hover .ama-alo-ph-circle-fill, .ama-alo-phone.ama-alo-green:hover .ama-alo-ph-circle-fill {
+    background-color: rgba(117,235,80,0.5);
+    background-color: #f5783e 9;
+    opacity: .75 !important;
+}
+.ama-alo-phone.ama-alo-green.ama-alo-hover .ama-alo-ph-circle, .ama-alo-phone.ama-alo-green:hover .ama-alo-ph-circle {
+    border-color: #f16321;
+    border-color: #f5783e 9;
+    opacity: .5;
+}
+@media (max-width:768px){
+    .container-modal-phone .modal-body input[type="text"], .container-modal-phone .modal-body select{
+        font-size:18px;
+    }
+}

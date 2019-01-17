@@ -1,0 +1,82 @@
+.fl{float:left;}
+.fr{float:right;}
+.fri{float:right !important;}
+.lsn, .lsn > li{list-style:none;}
+.posr{position:relative;}
+.posa{position:absolute;}
+.posf{position:fixed;}
+.imgdf > img{max-width:100%;width:auto;height:auto;border:none;}
+.hidden{display:none;}
+.dtb{display:table;}
+.dtbc{display:table-cell;}
+.pt0{padding-top:0 !important;}
+.pr0{padding-right:0 !important;}
+.pt0{padding-top:0 !important;}
+.pb0{padding-bottom:0 !important;}
+.tac{text-align:center;}
+.taj{text-align:justify;}
+.tar{text-align:right;}
+.ttu{text-transform:uppercase;}
+.tdu{text-decoration:underline;}
+.tdn{text-decoration:none;}
+.fwb{font-weight:bold;}
+.fwsb{font-weight:600;}
+.inline-block{display:inline-block;}
+.ul-li-inline-block > li{display:inline-block;}
+.ul-li-list-style-none, .ul-li-list-style-none > li{list-style:none;}
+.mb0{margin-bottom:0px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mb10{margin-bottom:10px;}
+.pl0{padding-left:0px;}
+.pr0{padding-right:0px;}
+.flr{float:right;}
+.position-absolute{position:absolute;}
+.text-uppercase{text-transform:uppercase}
+.alignnone{margin:5px 20px 20px 0;}
+.aligncenter{display:block;margin:5px auto 5px auto;}
+.alignright{float:right;margin:5px 0 20px 20px;}
+.alignleft{float:left;margin:5px 20px 20px 0;}
+.aligncenter{display:block;margin:5px auto 5px auto;}
+a img.alignright{float:right;margin:5px 0 20px 20px;}
+a img.alignnone{margin:5px 20px 20px 0;}
+a img.alignleft{float:left;margin:5px 20px 20px 0;}
+a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
+.wp-caption{background:#fff;border:1px solid #f0f0f0;max-width:96%;padding:5px 3px 10px;text-align:center;}
+.wp-caption.alignnone{margin:5px 20px 20px 0;}
+.wp-caption.alignleft{margin:5px 20px 20px 0;}
+.wp-caption.alignright{margin:5px 0 20px 20px;}
+.wp-caption img{border:0 none;height:auto;margin:0;max-width:98.5%;padding:0;width:auto;}
+.wp-caption p.wp-caption-text{font-size:14px;line-height:17px;margin:0;padding:0 4px 5px;}
+.the-content p,
+.the-content h1,
+.the-content h2,
+.the-content h3,
+.the-content h4,
+.the-content h5,
+.the-content h6,
+.the-content ul,
+.the-content table{margin:13px 0px;}
+.the-content p{line-height:22px;}
+.the-content li{margin:3px 0 3px 40px;}
+.the-content ul li{list-style:disc;}
+.the-content ol li{list-style:decimal;}
+.nav .menu-item{}
+.nav > .menu-item{}
+.nav > .menu-item.current-menu-item{}
+.nav > .menu-item.current-menu-parent{}
+.nav > .menu-item.current-menu-ancestor{}
+.nav > .menu-item > a{}
+.nav > .menu-item-has-children > a{}
+.nav > .menu-item-has-children > .sub-menu{}
+.nav > .menu-item-has-children > .sub-menu > li{}
+.nav > .menu-item-has-children > .sub-menu > li > a{}
+ul.page-numbers{margin:35px 0;overflow:hidden;text-align:center;}
+ul.page-numbers li{display:inline-block;vertical-align:middle;margin:5px;}
+ul.page-numbers li a.page-numbers, ul.page-numbers li span.page-numbers{display:flex;display:-webkit-flex;align-items:center;-webkit-align-items:center;justify-content:center;-webkit-justify-content:center;width:30px;height:30px;border-radius:50%;overflow:hidden;color:#D6D6D6;font-size:16px;border:1px solid #D6D6D6}
+ul.page-numbers li a.page-numbers.current,
+ul.page-numbers li a.page-numbers:hover,
+ul.page-numbers li span.page-numbers.current,
+ul.page-numbers li span.page-numbers:hover{background-color:#2F318D;color:#fff;}
+ul.page-numbers li a.page-numbers.prev{}
+ul.page-numbers li a.page-numbers.next{}

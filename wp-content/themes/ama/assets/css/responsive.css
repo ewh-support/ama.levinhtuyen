@@ -1,0 +1,40 @@
+/* Responsive */
+
+@media all and (max-width: 1680px) {
+
+}
+
+@media all and (max-width: 1280px) {
+
+}
+
+/* Vertical Desktop - 1024 */
+@media all and (max-width: 1024px) {
+
+}
+
+/* Vertical Tablet - 768 */
+@media all and (max-width: 780px) {
+.under_label_media{
+	text-align: left !important;
+	margin-top: 	10px;
+}
+}
+
+@media all and (max-width: 650px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+}
+
+/* Vertical Phone - 320 */
+@media all and (max-width: 380px) {
+		.main_post .other_news a{
+			display: 	none !important	;
+		}
+		.main_post .other_news select{
+			display: 	block !important;
+		}
+}
